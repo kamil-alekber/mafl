@@ -5,6 +5,7 @@
     v-bind="{ ...group, grid: $settings.layout.grid }"
   />
   <Update v-if="$settings.checkUpdates" />
+  <ExportConfig />
 </template>
 
 <script setup lang="ts">
